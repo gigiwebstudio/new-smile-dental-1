@@ -442,6 +442,14 @@
             position: relative;
             overflow: hidden;
         }
+        
+        .hero-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 10;
+            position: relative;
+        }
 
         @media (max-width: 768px) {
             .hero-image {
@@ -594,6 +602,13 @@
             justify-content: center;
             color: rgba(255, 255, 255, 0.3);
             animation: fadeInRight 0.8s ease-out 0.3s both;
+            overflow: hidden;
+        }
+        
+        .about-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
         @media (max-width: 768px) {
@@ -860,6 +875,13 @@
             color: var(--medium-gray);
             font-size: 1rem;
             animation: fadeInLeft 0.8s ease-out 0.2s both;
+            overflow: hidden;
+        }
+        
+        .location-map img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 
         @media (max-width: 768px) {
