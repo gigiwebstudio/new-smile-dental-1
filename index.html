@@ -312,12 +312,18 @@
             grid-template-columns: 1fr 1fr;
             min-height: 600px;
             overflow: hidden;
+            height: 70vh;
         }
 
         @media (max-width: 768px) {
             .hero {
                 grid-template-columns: 1fr;
                 min-height: auto;
+                height: auto; 
+            }
+            /* 모바일: 이미지를 위로 */
+            .hero-image {
+                order: -1;
             }
         }
 
